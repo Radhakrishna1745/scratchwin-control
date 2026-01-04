@@ -1,8 +1,14 @@
 {
-  "app_enabled": true,
-  "single_enabled": true,
-  "multi_enabled": true,
-  "search_enabled": true,
-  "settings_enabled": true,
-  "message": "App disabled by admin"
+  "app": true,
+  "message": "Contact admin",
+
+  "auto_register": true,
+  "max_devices": 10,
+
+  "features": {
+    "single": true,
+    "multi": true,
+    "search": true,
+    "settings": true
+  }
 }
