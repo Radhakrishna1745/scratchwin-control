@@ -1,3 +1,8 @@
 {
-  "app_enabled": true
+  "app_enabled": true,
+  "single_enabled": true,
+  "multi_enabled": true,
+  "search_enabled": true,
+  "settings_enabled": true,
+  "message": "App disabled by admin"
 }
