@@ -1,14 +1,13 @@
 {
   "app": true,
-  "message": "Contact admin",
+  "single": true,
+  "multi": false,
+  "search": true,
+  "settings": false,
+  "message": "App disabled by admin",
 
-  "auto_register": true,
-  "max_devices": 10,
-
-  "features": {
-    "single": true,
-    "multi": true,
-    "search": true,
-    "settings": true
+  "devices": {
+    "b6c4d9f83a1e1234": true,
+    "9a8b7c6d5e4f3210": true
   }
 }
