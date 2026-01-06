@@ -7,8 +7,17 @@
   "message": "App disabled by admin",
 
   "devices": {
-    "b6c4d9f83a1e1234": true,
-    "5a8fa1f5ef3d7bb0": false,
-    "9a8b7c6d5e4f3210": true
+    "b6c4d9f83a1e1234": {
+      "enabled": true,
+      "shop": "Sanjay Steel Bazaar"
+    },
+    "5a8fa1f5ef3d7bb0": {
+      "enabled": false,
+      "shop": "Test Shop"
+    },
+    "9a8b7c6d5e4f3210": {
+      "enabled": true,
+      "shop": "Ravi Hardware"
+    }
   }
 }
