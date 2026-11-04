@@ -1,23 +1,51 @@
 {
   "app": true,
   "single": true,
-  "multi": false,
+  "multi": true,
   "search": true,
-  "settings": false,
-  "message": "App disabled by admin",
+  "settings": true,
+  "message": "Access temporarily disabled by administrator.",
+  "settings": {
+    "shopName": "RADHAKRISHNA SCRATCHWIN123",
+    "amountPerCard": 1000,
+    "cardLimit": 10,
+    "receiptFooter": "Thank you for shopping with us! Keep shopping & keep winning!",
+    "adminPassword": "SUPER",
+    "theme": "NeoBlue",
+    "minScratchPercentage": 0.15,
+    "printingEnabled": true,
+    "walletEnabled": true,
+    "smartClaimEnabled": true,
 
-  "devices": {
-    "b6c4d9f83a1e1234": {
-      "enabled": true,
-      "shop": "Sanjay Steel Bazaar"
-    },
-    "5a8fa1f5ef3d7bb0": {
-      "enabled": false,
-      "shop": "Test Shop"
-    },
-    "9a8b7c6d5e4f3210": {
-      "enabled": true,
-      "shop": "Ravi Hardware"
-    }
-  }
+    "soundEnabled": true,
+    "winVoiceEnabled": true,
+    "autoScrollNextCard": true,
+
+    "animeAssistantEnabled": true,
+    "animeInactivityDelay": 5.0,
+    "animeDisplayDuration": 10.0,
+
+    "cyberRoboticHandEnabled": true,
+    "cyberHandStyle": "human_hand",
+    "magicSpinEnabled": true,
+    "handFurColor": "white",
+    "handNailArtEnabled": true,
+    "handSoundsEnabled": true,
+    "handScratchSpeedMs": 1500,
+    "handTriggerThreshold": 0.15,
+    "handIdleDelayMs": 1000,
+    "handCompletionThreshold": 0.60,
+
+    "splashMediaType": "IMAGE",
+    "splashLoadingText": "Loading ScratchWin123...",
+    "splashLoadingBarEnabled": true,
+    "splashSparksEnabled": true,
+    "splashLoadingSpeed": 25,
+
+    "scratchCardSurfaceUrl": "",
+    "splashImageUrl": "",
+    "splashVideoUrl": "",
+    "customQrImageUrl": ""
+  },
+  "devices": {}
 }
