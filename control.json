@@ -36,6 +36,24 @@
     "handIdleDelayMs": 1000,
     "handCompletionThreshold": 0.60,
 
+    "proactiveVoiceEnabled": true,
+    "realtimeEmotionEnabled": true,
+    "profitGuardianEnabled": true,
+    "dailyPrizeBudget": 10000,
+
+    "tripleJackpotEnabled": true,
+    "bigWinModeEnabled": true,
+    "viralWinStudioEnabled": true,
+    "arPrizeEnabled": true,
+
+    "voiceLanguage": "English",
+    "customWelcomeMessage": "Hi Sir, welcome back. Have a great day.",
+    "smsMessage": "Thank you for shopping with {SHOP_NAME}.\nBill Amount: ₹{BILL_AMOUNT}\nScratchWin Reward: ₹{REWARD_AMOUNT}\n\nKeep shopping & keep winning! 🎉",
+
+    "posHttpPort": 8080,
+    "posCloudEndpoint": "",
+    "posTcpPort": 9100,
+
     "splashMediaType": "IMAGE",
     "splashLoadingText": "Loading ScratchWin123...",
     "splashLoadingBarEnabled": true,
